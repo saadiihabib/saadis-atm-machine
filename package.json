@@ -1,9 +1,13 @@
 {
-  "name": "saadis-atm-machine",
-  "version": "1.0.0",
+  "name": "@saadulwahab/saadis-atm-machine",
+  "version": "2.0.0",
   "description": "A simple atm machine for beginners.",
   "main": "index.js",
   "type": "module",
+  "publishconfig":{
+    "access":"public"
+    },
+    "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
