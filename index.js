@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 import inquirer from "inquirer";
+import chalk from "chalk";
 let myBalance = 10000;
 let myPin = 1122;
+console.log(chalk.green("\n \t* WELCOME TO MY ATM MACHINE *\n"));
 let answer = await inquirer.prompt({
     name: "pin",
     message: "enter your pin :",
